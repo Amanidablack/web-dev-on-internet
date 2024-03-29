@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Climate saving</h1>
+    <br>
+
+    <div class="fullImg" id="fullBox">
+        <img src="images/tree.jpeg" id="fulluImg">
+        <div id="fullImgText" class="imgText"> Trees purfiy the air<br>They combat climate change<br>They are homes to many species<br>Trees cool our streets and cities<br>Trees protect against floods and water pollution<br>We can help the environment by planting more trees</div>
+        <span onclick="closeFulluImg()">X</span>
+    </div>
+
+    <div class="bigImg" id="bigBox">
+        <img src="images/saveWater.jpeg" id="bigiImg">
+        <div id="bigImgText" class="bigText">Water is very important<br>It serves us in our daily needs<br>Without it, farmers will lose their crops<br>Using less water will be good for the wetland habitat and save a lot of energy<br>If there was no water in this world, conditions would be dry leading to draughts</div>
+        <span onclick="closeBigiImg()">X</span>
+    </div>
+
+    <div class="cycleImg" id="cycleBox">
+        <img src="images/cycle.jpeg" id="cycleImg">
+        <div id="cycleImgText" class="cycleText">Cycling helps reduce air and noise pollution<br>It uses minimum fossil fuels which makes it a great way of transport<br>Not only is it great, for the environment but great for you too, it strengthens and imporves your heart muscles, lowering resting pulses and reduces blood fat levels</div>
+        <span onclick="closeCycleImg()">X</span>
+    </div>
+
+    <div class="solarImg" id="solarBox">
+        <img src="images/solarPanels.jpg" id="solarImg">
+        <div id="solarImgText" class="solarText">Solar panels create energy ussing the sun<br>Solar paneels reduce greenhouse gas emissions and mitigating climate change, this is critical in protecting humans, wildlife and ecosystems<br>Solar eneergy is renewable meaning it will never run out</div>
+        <span onclick="closeSolarImg()">X</span>
+    </div>
+
+    <div class="compostImg" id="compostBox">
+        <img src="images/compost.jpeg" id="compostImg">
+        <div id="compostImgText" class="compostText">Compost is a great way to use our waste to feed our plants<br>Compost imporves plant growith and health<br>Compost replaces harmful chemical fertilisers and improves soil quality</div>
+        <span onclick="closeCompostImg()">X</span>
+    </div>
+
+    <div class="litteringImg" id="litteringBox">
+        <img src="images/littering.jpeg" id="litteringImg">
+        <div id="litteirngImgText" class="litteringText">People and animals can cut themselfs from certail types of litter<br>Many small animals get themselves trapped in the litter we throw<br>More than 40% of the worlds litter is burned in open air which can release toxic emissions which can cause respiratory issues and other health and environmental problems</div>
+        <span onclick="closeLitteringImg()">X</span>
+    </div>
+
+    <div class="plasticImg" id="plasticBox">
+        <img src="images/plasticInSea.webp" id="plasticImg">
+        <div id="plasticImgText" class="plasticText">Plastic in the sea is bad as it decomposes very slowly, breaking into tiny pieces called microplastics which can enter the marine food chain and damage sea life<br>Animals get tangled in nets and bottles and can't get out<br>The animals also eat the plastic thining its food and it can cause geat harm to them</div>
+        <span onclick="closePlasticImg()">X</span>
+    </div>
+
+    <div class="recycleImg" id="recycleBox">
+        <img src="images/recycle.webp" id="recycleImg">
+        <div id="recycleImgText" class="recycleText">Recycling reduces waste sent to landfills<br>Recycling conserves natural resources and energy<br>Recycling reduces the need for mining for raw materials which will help not damage the environment<br>Recycling prevents pollution and helps tackle climate change</div>
+
+        <span onclick="closeRecycleImg()">X</span>
+    </div>
+
+    <div class="walkingImg" id="walkingBox">
+        <img src="images/walking.webp" id="walkingImg">
+        <div id="walkiingImgText" class="walkingText">Walking is great way to limit pollution form car emissions<br>Walking not only helps the environment but also benefits you, it helps imporve our moods, self esteem and relaxation</div>
+        <span onclick="closeWalkingImg()">X</span>
+    </div>
+
+    <div class="windImg" id="windBox">
+        <img src="images/windTurbines.jpeg" id="windImg">
+        <div id="windImgText" class="windText">Wind turbines generate energy from the wind and does not release any carbon emissions<br>By replacing electricity generated from sources such as fossil fuel power, wind energy can lead to an overall reduction in carbon emissions</div>
+        <span onclick="closeWindImg()">X</span>
+    </div>
+
+    <div class="reuseImg" id="reuseBox">
+        <img src="images/reuse.jpeg" id="reuseImg">
+        <div id="reuseImgText" class="reuseText">Reusing things you don't need can help the environemt as you are wasting less and making it worthwhile as it reduces the amount of waste that will need to be recycled or sent to the landfills<br>You are also saving money</div>
+        <span onclick="closeReuseImg()">X</span>
+    </div>
+
+    <div class="busImg" id="busBox">
+        <img src="images/bus.jpeg" id="busImg">
+        <div id="busImgText" class="busText">Public transport such as buses ddecrease the number of vechincles on the road, this leads to the reduction in emissions<br>If more people used public transport, there would be less vechicles on the road leading to less pollution that is released into the atmosphere<br>Cars are harmful to the environment through their construction, use and fueling needs, they contain harmful gases that cause climate change</div>
+        <span onclick="closeBusImg()">X</span>
+    </div>
+    
+    
+
+
+
+    <div class="imgGallery">
+
+        <img src="images/tree.jpeg" alt="tree" height="300" width="300" onclick="openFulluImg()">
+        <img src="images/saveWater.jpeg" alt="saveWater" height="300" width="300" onclick="openBigiImg()">
+        <img src="images/cycle.jpeg" alt="cycle" height="300" width="300" onclick="openCycleImg()">
+        <img src="images/solarPanels.jpg" alt="solarPanels" height="300" width="300"onclick="openSolarImg()"> 
+        <img src="images/compost.jpeg" alt="compost" height="300" width="300" onclick="openCompostImg()">
+        <img src="images/littering.jpeg" alt="littering" height="300" width="300" onclick="openLitteringImg()">
+        <img src="images/plasticInSea.webp" alt="plasticInSea" height="300" width="300" onclick="openPlasticImg()">
+        <img src="images/recycle.webp" alt="recycle" height="300" width="300" onclick="openRecycleImg()">
+        <img src="images/walking.webp" alt="walking" height="300" width="300" onclick="openWalkingImg()">
+        <img src="images/windTurbines.jpeg" alt="windTurbines" height="300" width="300" onclick="openWindImg()">
+        <img src="images/reuse.jpeg" alt="reuse" height="300" width="300" onclick="openReuseImg()">
+        <img src="images/bus.jpeg" alt="reuse" height="300" width="300" onclick="openBusImg()">
+    
+    </div>
+
+
+
+
+<script>
+
+    var fullBox = document.getElementById("fullBox");
+    var fulluImg = document.getElementById("fulluImg");
+    var fulluImgText = document.getElementById("fulluImgText");
+
+
+    function openFulluImg(){
+        fullBox.style.display = "flex";
+        
+    }
+
+
+    function closeFulluImg(){
+        fullBox.style.display = "none";
+    }
+
+    var bigBox = document.getElementById("bigBox");
+    var bigiImg = document.getElementById("bigiImg");
+    var bigImgText = document.getElementById("bigImgText");
+
+
+    function openBigiImg(){
+        bigBox.style.display = "flex";
+        
+    }
+
+    function closeBigiImg(){
+        bigBox.style.display = "none";
+    }
+
+
+    var cylceBox = document.getElementById("cycleBox");
+    var cycleImg = document.getElementById("cycleImg");
+    var cycleImgText = document.getElementById("cycleImgText");
+
+
+    function openCycleImg(){
+        cycleBox.style.display = "flex";
+        
+    }
+
+    function closeCycleImg(){
+        cycleBox.style.display = "none";
+    }
+
+
+    var solarBox = document.getElementById("solarBox");
+    var solarImg = document.getElementById("solarImg");
+    var solarImgText = document.getElementById("solarImgText");
+
+
+    function openSolarImg(){
+        solarBox.style.display = "flex";
+        
+    }
+
+    function closeSolarImg(){
+        solarBox.style.display = "none";
+    }
+
+
+    var compostBox = document.getElementById("compostBox");
+    var compostImg = document.getElementById("compostImg");
+    var compostImgText = document.getElementById("compostImgText");
+
+
+    function openCompostImg(){
+        compostBox.style.display = "flex";
+        
+    }
+
+    function closeCompostImg(){
+        compostBox.style.display = "none";
+    }
+
+
+    var litteringBox = document.getElementById("litteringBox");
+    var litteringImg = document.getElementById("litteringImg");
+    var litteringImgText = document.getElementById("litteringImgText");
+
+
+    function openLitteringImg(){
+        litteringBox.style.display = "flex";
+        
+    }
+
+    function closeLitteringImg(){
+        litteringBox.style.display = "none";
+    }
+
+
+    var plasticBox = document.getElementById("plasticBox");
+    var plasticImg = document.getElementById("plasticImg");
+    var plasticImgText = document.getElementById("plasticImgText");
+
+
+    function openPlasticImg(){
+        plasticBox.style.display = "flex";
+        
+    }
+
+    function closePlasticImg(){
+        plasticBox.style.display = "none";
+    }
+
+
+    var recycleBox = document.getElementById("recycleBox");
+    var recycleImg = document.getElementById("recycleImg");
+    var recycleImgText = document.getElementById("recycleImgText");
+
+
+    function openRecycleImg(){
+        recycleBox.style.display = "flex";
+        
+    }
+
+    function closeRecycleImg(){
+        recycleBox.style.display = "none";
+    }
+
+
+    var walkingBox = document.getElementById("walkingBox");
+    var walkingImg = document.getElementById("walkingImg");
+    var walkingImgText = document.getElementById("walkingImgText");
+
+
+    function openWalkingImg(){
+        walkingBox.style.display = "flex";
+        
+    }
+
+    function closeWalkingImg(){
+        walkingBox.style.display = "none";
+    }
+
+
+    var windBox = document.getElementById("windBox");
+    var windImg = document.getElementById("windImg");
+    var windImgText = document.getElementById("windImgText");
+
+
+    function openWindImg(){
+        windBox.style.display = "flex";
+        
+    }
+
+    function closeWindImg(){
+        windBox.style.display = "none";
+    }
+
+
+    var reuseBox = document.getElementById("reuseBox");
+    var reuseImg = document.getElementById("reuseImg");
+    var reuseImgText = document.getElementById("reuseImgText");
+
+
+    function openReuseImg(){
+        reuseBox.style.display = "flex";
+        
+    }
+
+    function closeReuseImg(){
+        reuseBox.style.display = "none";
+    }
+
+
+    var busBox = document.getElementById("busBox");
+    var busImg = document.getElementById("busImg");
+    var busImgText = document.getElementById("busImgText");
+
+
+    function openBusImg(){
+        busBox.style.display = "flex";
+        
+    }
+
+    function closeBusImg(){
+        busBox.style.display = "none";
+    }
+
+
+
+ 
+  
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
